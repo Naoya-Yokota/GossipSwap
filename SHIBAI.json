@@ -1,0 +1,6 @@
+{
+  "name": "SHIBAI",
+  "interval":1,
+  "offset": 1,
+  "device": "cpu"
+}

@@ -1,0 +1,51 @@
+{
+    "nodes": [
+        {
+            "name": "CASPER",
+            "addr": "localhost",
+            "port": "9997",
+            "edges": [
+                "BALTHASAR",
+                "MELCHIOR"
+            ]
+        },
+        {
+            "name": "BALTHASAR",
+            "addr": "localhost",
+            "port": "9998",
+            "edges": [
+                "CASPER",
+                "KOUMEI"
+            ]
+        },
+        {
+            "name": "MELCHIOR",
+            "addr": "localhost",
+            "port": "9999",
+            "edges": [
+                
+                "CASPER"
+                
+                  
+            ]
+        },
+        {
+            "name": "KOUMEI",
+            "addr": "localhost",
+            "port": "9996",
+            "edges": [
+                "BALTHASAR",
+                "SHIBAI"
+            ]
+        },
+        {
+            "name": "SHIBAI",
+            "addr": "localhost",
+            "port": "9995",
+            "edges": [
+               
+                "KOUMEI"
+            ]
+        }
+    ]
+}
