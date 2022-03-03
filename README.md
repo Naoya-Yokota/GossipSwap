@@ -9,7 +9,7 @@
 2. [Install](#Install)
 3. [Experiment](#Experiment)
 4. [Citation](#Citation)
-5. [License](#License)
+5. [Edit](#Edit)
 ## Introduction
 Gossip Swap SGD is decentralized distributed machine learning method based on the Gossip SGD. This research was published at [APRIS2021](http://sigemb.jp/APRIS/2021/) and paper can be downloaded at [IPSJ](https://ipsj.ixsq.nii.ac.jp/ej/?action=pages_view_main&active_action=repository_view_main_item_detail&item_id=216195&item_no=1&page_id=13&block_id=8).
 ## Install
@@ -26,6 +26,9 @@ Ex) eclsamples/run_cifar10.py (original)->eclsamples/run_cifar10.py (ours)
 Ex)edgecons/contract.py(origin)->edgecons/contract.py(ours)
 
 ## Experiment
+Follow the [PDMM SGD](https://github.com/nttcslab/edge-consensus-learning).When you use this code, please install the [PDMM SGD](https://github.com/nttcslab/edge-consensus-learning)
+
+If you want to run the Gossip Swap SGD, please overwrite the run_XXXX.py like a attached pdf file. And use gossip SGD command in the commnad line or terminal.
 ## Citation
 ```
 @inproceedings{weko_216195_1,
@@ -39,5 +42,6 @@ Ex)edgecons/contract.py(origin)->edgecons/contract.py(ours)
    month	 = "jan"
 }
 ```
-## License
-## Reference
+
+##Edit
+When you want know the way of editing, you can get it from pdf file. 
